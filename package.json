@@ -1,0 +1,27 @@
+{
+  "name": "ds_algo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bst.js",
+  "scripts": {
+    "test": "mocha",
+    "clean": "rm -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./src -s",
+    "build": "npm run clean && npm run build-babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilmurali/ds_algo_js_implementation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhilmurali/ds_algo_js_implementation/issues"
+  },
+  "homepage": "https://github.com/akhilmurali/ds_algo_js_implementation#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
